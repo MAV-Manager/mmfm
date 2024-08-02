@@ -102,7 +102,7 @@ sudo apt-get install -y docker-compose
 
 ## 🐳 Running the Docker Containers
 ```bash
-git clone https://github.com/MAV-Manager/mmgcs && cd mmgcs
+git clone https://github.com/MAV-Manager/mmfm && cd mmfm
 docker compose up
 ```
 *Run with `-d` to detach the container from the terminal session*
