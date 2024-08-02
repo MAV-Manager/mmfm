@@ -1,18 +1,18 @@
 services:
   backend:
-    image: judahpaul16/mmgcs_backend:latest
+    image: judahpaul16/mmfm_backend:latest
     ports:
       - "8090:8090"
-    container_name: mmgcs_backend
+    container_name: mmfm_backend
     deploy:
       resources:
         limits:
           memory: 700m
 
   frontend:
-    image: judahpaul16/mmgcs_frontend:latest
+    image: judahpaul16/mmfm_frontend:latest
     ports:
       - "5173:5173"
-    container_name: mmgcs_frontend
+    container_name: mmfm_frontend
     environment:
       - CHOKIDAR_USEPOLLING=true

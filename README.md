@@ -1,15 +1,13 @@
 <div align="center">
 
-# 🚁 MAV Manager GCS 📡
+# 🚁 MAV Manager FM 📡
 
-![Raspberry Pi Version](https://img.shields.io/badge/Raspberry_Pi-Zero%20%2F%204B-red?style=flat-square&logo=raspberry-pi)
 ![Docker Compose Version](https://img.shields.io/badge/Docker%20Compose-v2.27.1-blue?style=flat-square&logo=docker)
 ![PocketBase Version](https://img.shields.io/badge/PocketBase-v0.22.14-green?style=flat-square&logo=pocketbase)
 
-A web-based ground control station (GCS) for remote autopilot management via MAVLink.  
-*Tested on Raspberry Pi Zero with ArduPilot.*
+A web based fleet management system for [MAV Manager GCS](https://github.com/MAV-Manager/mmgcs).
 
-<img src="screenshots/mmgcs.png" alt="Illustration" width="auto"/>
+<img src="screenshots/mmfm.png" alt="Illustration" width="auto"/>
 
 </div>
 
@@ -108,11 +106,6 @@ git clone https://github.com/MAV-Manager/mmgcs && cd mmgcs
 docker compose up
 ```
 *Run with `-d` to detach the container from the terminal session*
-
----
-
-## ✅ Compatibility
-...
 
 ---
 
